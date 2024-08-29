@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cantainer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.main {
+
+    margin-top: 100px;
+    border: 2px solid purple;
+    width: 450px;
+    height: 450px;
+    background-color: palegreen;
+}
+#input1 {
+    height: 40px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+#input2{
+    height: 40px;
+    padding-left: 10px;
+
+}
+#amorpm{
+    height: 40px;
+    margin-top: 19px;
+    padding-left: 10px;
+
+}
+
+
+#play {
+    margin-top: 30px;
+  height: 50px;
+  color: white;
+  background-color: rgb(65, 65, 238);
+ width: 200px;
+  
+}
+#stop{
+    margin-top: 30px;
+  height: 50px;
+  color: white;
+  background-color: rgb(65, 65, 238);
+ width: 200px;
+
+}
+#stop:active{
+    background-color: blue;
+}
+#play:active{
+    background-color: blue;
+}
+#time {
+    margin-bottom: 50px;
+    margin-top: 10px;
+    border: 2px solid black;
+    background-color: yellow;
+    width: 300px;
+    color: rgb(255, 0, 166);
+}
